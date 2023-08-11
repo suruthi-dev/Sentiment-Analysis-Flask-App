@@ -1,0 +1,70 @@
+/* Reset some default styling */
+body, h1, h2, h3, h4, h5, h6, p, input, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Set a base font */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Set gradient background colors */
+.container {
+    margin-top: 50px;
+    text-align: center;
+    background: linear-gradient(to bottom, #2196F3, #42A5F5);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-lg {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.btn {
+    background-color: #7171d5;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.output {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #007bff;
+}

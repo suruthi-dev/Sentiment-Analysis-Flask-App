@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html> 
+<head>
+        <meta charset="UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link href="{{ url_for('static', filename='styles/style.css') }}" rel="stylesheet">
+        <title> Sentiment Analysis </title>
+</head>
+
+<body>
+    <div class = 'container'>
+        <div class = 'container-lg'>
+            <h1> SENTIMENT ANALYSIS</h1>
+            <form method = 'POST' class = 'form'>
+                <input type = 'text' name = 'inp' placeholder="Enter your Feelings !!!">
+                <br>
+                <input type = 'submit' name = 'submit' id = 'btn' class = 'btn btn'>
+
+            </form>
+            <h1 class = 'output'> {{message}}</h1>
+        </div>
+    </div>
+
+</body>
+</html>
